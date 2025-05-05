@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Poetry
+.poetry/
+poetry.lock
+.python-version
+
+# Large model files and data
+checkpoints/*.pt
+data/train/*.jpg
+data/train/*.png
+
+# Logs
+*.log
