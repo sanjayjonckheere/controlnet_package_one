@@ -117,7 +117,7 @@ See `pyproject.toml` for dependencies:
 
 * **ControlNet**: [CreativeML Open RAIL-M](https://huggingface.co/spaces/CompVis/stable-diffusion-license).
 * **MiDaS**: [Apache License 2.0](https://github.com/isl-org/MiDaS/blob/master/LICENSE).
-* **Project**: MIT License.
+* **Project**: Apache License Version 2.0.
 
 ## Acknowledgments
 
