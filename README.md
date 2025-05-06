@@ -1,7 +1,5 @@
 # ControlNet Package
 
-HEAD
-This project provides a **ControlNet pipeline** for depth-guided image generation, structured as a Python package and optimized for local development using **PyCharm**. It fine-tunes a pre-trained **ControlNet** model (`lllyasviel/sd-controlnet-depth`) with Stable Diffusion to generate images conditioned on depth maps, automatically created from RGB images using **MiDaS** (`DPT_Large`).
 
 This project provides a **ControlNet pipeline** for depth-guided image generation, structured as a Python package and optimized for local development using **PyCharm**. It fine-tunes a pre-trained **ControlNet** model (`lllyasviel/sd-controlnet-depth`) with Stable Diffusion to generate images conditioned on depth maps, automatically created from RGB images using **MiDaS** (`DPT_Large`). 8245f433269d5b781b3981d31209406a0249518c
 
@@ -9,7 +7,7 @@ This project provides a **ControlNet pipeline** for depth-guided image generatio
 ## Pipeline Overview
 
 ### Description
-The pipeline fine-tunes ControlNet for depth-guided image generation using two RGB images. It is optimized for local GPUs (e.g., NVIDIA) and structured as a Python package for modularity.
+The pipeline fine-tunes ControlNet for depth-guided image generation using two RGB images to test the pipeline functionality. It is optimized for local GPUs (e.g., NVIDIA) and structured as a Python package for modularity.
 
 ### Components
 - **`controlnet_package/`**: Python package:
@@ -24,7 +22,7 @@ The pipeline fine-tunes ControlNet for depth-guided image generation using two R
 - **`pyproject.toml`**: Poetry configuration for dependencies.
 - **`tests/`**: Contains unit tests (e.g., `test_dataset.py`).
 - **`.gitignore`**: Excludes sensitive files.
-- **`LICENSE`**: MIT License.
+- **`LICENSE`**: The Apache License 2.0.
 
 ### Functionality
 1. **Setup**: Creates a virtual environment and installs dependencies with Poetry.
