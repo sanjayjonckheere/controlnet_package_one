@@ -6,7 +6,7 @@ This project provides a **ControlNet pipeline** for depth-guided image generatio
 ## Pipeline Overview
 
 ### Description
-The pipeline fine-tunes ControlNet for depth-guided image generation using two RGB images to test the pipeline functionality. It is optimized for local GPUs (e.g., NVIDIA) and structured as a Python package for modularity.
+This Python package provides a modular pipeline for fine-tuning ControlNet in depth-guided image generation, using two RGB images for functionality testing. Optimized for NVIDIA GPUs, it is structured for flexibility and ease of use.
 
 ### Components
 - **`controlnet_package/`**: Python package:
