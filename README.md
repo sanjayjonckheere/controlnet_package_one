@@ -1,8 +1,7 @@
 # ControlNet Package
 
 
-This project provides a **ControlNet pipeline** for depth-guided image generation, structured as a Python package and optimized for local development using **PyCharm**. It fine-tunes a pre-trained **ControlNet** model (`lllyasviel/sd-controlnet-depth`) with Stable Diffusion to generate images conditioned on depth maps, automatically created from RGB images using **MiDaS** (`DPT_Large`). 8245f433269d5b781b3981d31209406a0249518c
-
+This project provides a **ControlNet pipeline** for depth-guided image generation, structured as a Python package and optimized for local development using **PyCharm**. It fine-tunes a pre-trained **ControlNet** model (`lllyasviel/sd-controlnet-depth`) with Stable Diffusion to generate images conditioned on depth maps, automatically created from RGB images using **MiDaS** (`DPT_Large`).
 
 ## Pipeline Overview
 
